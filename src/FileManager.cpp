@@ -28,6 +28,11 @@ void escribir()
 
 int main()
 {
-	escribir();
+	//escribir();
+	int a, b;
+	cout << "Ingrese dos números: ";
+	cin >> a >> b;
+	cout << "a = " << a << endl;
+	cout << "b = " << b << endl;
 	return 0;
 }
